@@ -312,11 +312,11 @@ section {
   color: #fff;
 }
 
-.wrapper .work-container {
+.wrapper .portfolio {
   display: none;
 }
 
-.wrapper .work-container.active {
+.wrapper .portfolio.active {
   display: block;
 }
 
@@ -495,15 +495,16 @@ section {
   }
   main #work .work-tabs li {
     font-size: 16px;
+    text-align: center;
   }
-  main #work .works h4,
-  main #work .works h6 {
+  main #work .portfolio h4,
+  main #work .portfolio h6 {
     padding: 10px 0 0;
   }
-  main #work .works h4 {
+  main #work .portfolio h4 {
     font-size: 20px !important;
   }
-  main #work .works h6 {
+  main #work .portfolio h6 {
     font-size: 16px !important;
   }
 }

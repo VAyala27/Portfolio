@@ -268,7 +268,7 @@ section {
         }
     }
 
-    .work-container {
+    .portfolio {
         display: none;
 
         &.active {
@@ -497,10 +497,11 @@ section {
 
                 li {
                     font-size: 16px;
+                    text-align: center;
                 }
             }
 
-            .works {
+            .portfolio {
 
                 h4,
                 h6 {
